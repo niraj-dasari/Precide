@@ -7,7 +7,7 @@ import streamlit as st
 import joblib
 
 pipl_lr = joblib.load(
-    open(r'D:\projects\BEIT\precide\Backend\models\emotion.pkl', 'rb'))
+    open('/emotion.pkl', 'rb'))
 
 
 def predict_suicide(snt):
